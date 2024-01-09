@@ -32,6 +32,51 @@ Get the details of the searched movie
 </body>
 </html>
 
+body{
+    margin: 0;
+    background-color: rgb(19, 19, 19);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search{
+    width: 700px;
+    display: flex;
+    margin: 20px auto;
+}
+input{
+    width: 70%;
+    padding: 16px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: #46464670;
+}
+input:focus{
+    outline: none;
+    border: none
+}
+.btn{
+    background-color: red;
+    color: white;
+    width: 25%;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container{
+    color: white;
+    width: 700px;
+    margin:60px auto;
+    display: flex;
+    gap: 30px;
+}
+#title{
+    margin-top: 0;
+}
+#poster{
+    width: 100%;
+}
+
 let api = 'https://www.omdbapi.com/?i=tt3896198&apikey=f23d97d6&t='
 function searchMovie(){
     let query = document.getElementById('movieName').value;
