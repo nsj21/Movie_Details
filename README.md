@@ -1,6 +1,6 @@
 #Movie Details
 Get the Details of the searched Movies
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
