@@ -1,6 +1,3 @@
-# Movie_Details
-Get the details of the searched movie
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
