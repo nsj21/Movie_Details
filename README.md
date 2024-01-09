@@ -14,8 +14,6 @@ Get the details of the searched movie
         <input type="text" id="movieName" placeholder="Search any movie by its name...">
         <button class="btn" onclick="searchMovie()">Search movie</button>
     </div>
-
-
     <div class="container">
         <div>
             <h2 id="title"></h2>
@@ -30,8 +28,6 @@ Get the details of the searched movie
         </div>
         <img src="" id="poster" alt="">
     </div>
-
-
     <script src="app1.js"></script>
 </body>
 </html>
